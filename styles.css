@@ -1,0 +1,242 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Header Styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #1c1c1c;
+}
+
+.logo h1 {
+  font-size: 2.5rem;
+  color: #e50914;
+}
+
+.logo p {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav ul li {
+  margin-left: 20px;
+}
+
+.nav ul li a {
+  color: #fff;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* Hero Section Styles */
+.hero {
+  background: url('https://via.placeholder.com/1920x800/333333/FFFFFF?text=Hero+Image') no-repeat center center/cover;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 50px;
+}
+
+.hero-content h2 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.hero-content p {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
+
+.cta-btn {
+  background-color: #e50914;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+/* Featured Stories Styles */
+.featured-stories {
+  padding: 50px 20px;
+  background-color: #181818;
+  text-align: center;
+}
+
+.featured-stories h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.story-carousel {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.story-item {
+  text-align: center;
+}
+
+.story-item img {
+  border-radius: 8px;
+  width: 350px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.story-item h3 {
+  font-size: 1.4rem;
+  margin-top: 10px;
+}
+
+.story-item p {
+  font-size: 1rem;
+  margin-top: 5px;
+  color: #bbb;
+}
+
+/* Author Gallery Styles */
+.author-gallery {
+  padding: 50px 20px;
+  background-color: #121212;
+  text-align: center;
+}
+
+.author-gallery h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.author-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.author-item img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.author-item p {
+  font-size: 1.1rem;
+  margin-top: 10px;
+}
+
+/* Submit Your Story Section */
+.submit-story {
+  padding: 50px 20px;
+  background-color: #181818;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.submit-story h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.submit-story p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  color: #ccc;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.form-group label {
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #444;
+  border-radius: 5px;
+}
+
+.form-group button {
+  background-color: #e50914;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.form-group button:hover {
+  background-color: #c4070d;
+}
+
+/* About Section */
+.about {
+  padding: 50px 20px;
+  background-color: #121212;
+  text-align: center;
+}
+
+.about-content p {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  color: #ccc;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #1c1c1c;
+  text-align: center;
+  padding: 20px;
+  color: #bbb;
+  font-size: 0.9rem;
+}
